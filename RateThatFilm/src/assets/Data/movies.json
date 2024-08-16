@@ -1,0 +1,270 @@
+[
+    {
+      "id": 1,
+      "title": "Inception",
+      "year": 2010,
+      "director": "Christopher Nolan",
+      "genre": "Science Fiction",
+      "rating": 8.8,
+      "your_rating": null,
+      "your_review": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg"
+ 
+    },
+    {
+      "id": 2,
+      "title": "Interstellar",
+      "year": 2014,
+      "director": "Christopher Nolan",
+      "genre": "Science Fiction",
+      "rating": 8.6,
+      "your_rating": null,
+      "your_review": "",    
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg"
+
+    },
+    {
+      "id": 3,
+      "title": "Avengers Endgame",
+      "year": 2019,
+      "director": "Anthony and Joe Russo",
+      "genre": "Action",
+      "rating": 8.4,
+      "your_rating": null,
+      "your_review": "",    
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg"
+
+    },
+    {
+      "id": 4,
+      "title": "Avengers Infinity War",
+      "year": 2018,
+      "director": "Anthony and Joe Russo",
+      "genre": "Action",
+      "rating": 8.4,
+      "your_rating": null,
+      "your_review": "",   
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/4/4d/Avengers_Infinity_War_poster.jpg" 
+    },
+    {
+      "id": 5,
+      "title": "Bahubali the Beginning",
+      "year": 2015,
+      "director": "S. S. Rajamouli",
+      "genre": "Action",
+      "rating": 8.0,
+      "your_rating": null,
+      "your_review": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/5/5f/Baahubali_The_Beginning_poster.jpg"
+        
+    },
+    {
+      "id": 6,
+      "title": "Bahubali the Conclusion",
+      "year": 2017,
+      "director": "S. S. Rajamouli",
+      "genre": "Action",
+      "rating": 8.2,
+      "your_rating": null,
+      "your_review": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/9/93/Baahubali_2_The_Conclusion_poster.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Dangal",
+      "year": 2016,
+      "director": "Nitesh Tiwari",
+      "genre": "Drama",
+      "rating": 8.2,
+      "your_rating": null,
+      "your_review": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/9/99/Dangal_Poster.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Natasamrat",
+      "year": 2013,
+      "director": "Mahesh Manjrekar",
+      "genre": "Drama",
+      "rating": 8.8,
+      "your_rating": null,
+      "your_review": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/e/e0/Natsamrat_2016_Marathi_film_poster.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Katyar Kaljat Ghusli",
+      "year": 2015,
+      "director": "Subhash Ghai",
+      "genre": "Drama",
+      "rating": 8.1,
+      "your_rating": null,
+      "your_review": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/3/35/Katyar_Kaljat_Ghusali_%28film%29.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Free Guy",
+      "year": 2021,
+      "director": "Shawn Levy",
+      "genre": "Action",
+      "rating": 7.1,
+      "your_rating": null,
+      "your_review": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/1/1c/Free_Guy_2021_Poster.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Zindagi Na Milegi Dobara",
+      "year": 2011,
+      "director": "Zoya Akhtar",
+      "genre": "Comedy",
+      "rating": 8.1,
+      "your_rating": null,
+      "your_review": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/1/17/Zindagi_Na_Milegi_Dobara.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Lagaan",
+      "year": 2001,
+      "director": "Ashutosh Gowariker",
+      "genre": "Drama",
+      "rating": 8.1,
+      "your_rating": null,
+      "your_review": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/b/b6/Lagaan.jpg"
+    },
+    {
+      "id": 13,
+      "title": "The Shawshank Redemption",
+      "year": 1994,
+      "director": "Frank Darabont",
+      "genre": "Drama",
+      "rating": 9.3,
+      "your_rating": null,
+      "your_review": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg"
+    },
+    {
+      "id": 14,
+      "title": "The Dark Knight",
+      "year": 2008,
+      "director": "Christopher Nolan",
+      "genre": "Action",
+      "rating": 9.0,
+      "your_rating": null,
+      "your_review": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/1/1c/The_Dark_Knight_%282008_film%29.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Pulp Fiction",
+      "year": 1994,
+      "director": "Quentin Tarantino",
+      "genre": "Crime",
+      "rating": 8.9,
+      "your_rating": null,
+      "your_review": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/3/3b/Pulp_Fiction_%281994%29_poster.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Forrest Gump",
+      "year": 1994,
+      "director": "Robert Zemeckis",
+      "genre": "Drama",
+      "rating": 8.8,
+      "your_rating": null,
+      "your_review": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Fight Club",
+      "year": 1999,
+      "director": "David Fincher",
+      "genre": "Drama",
+      "rating": 8.8,
+      "your_rating": null,
+      "your_review": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/f/fc/Fight_Club_poster.jpg"
+    },
+    {
+      "id": 18,
+      "title": "The Godfather",
+      "year": 1972,
+      "director": "Francis Ford Coppola",
+      "genre": "Crime",
+      "rating": 9.2,
+      "your_rating": null,
+      "your_review": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Inglourious Basterds",
+      "year": 2009,
+      "director": "Quentin Tarantino",
+      "genre": "War",
+      "rating": 8.3,
+      "your_rating": null,
+      "your_review": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/c/c3/Inglourious_Basterds_poster.jpg"
+    },
+    {
+      "id": 20,
+      "title": "The Matrix",
+      "year": 1999,
+      "director": "The Wachowskis",
+      "genre": "Science Fiction",
+      "rating": 8.7,
+      "your_rating": null,
+      "your_review": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg"
+    },
+    {
+      "id": 21,
+      "title": "Joker",
+      "year": 2019,
+      "director": "Todd Phillips",
+      "genre": "Drama",
+      "rating": 8.4,
+      "your_rating": null,
+      "your_review": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/e/e1/Joker_%282019_film%29_poster.jpg"
+    },
+    {
+        "id": 22,
+        "title": "Parasite",
+        "year": 2019,
+        "director": "Bong Joon-ho",
+        "genre": "Thriller",
+        "rating": 8.6,
+        "your_rating": null,
+        "your_review": "",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/5/53/Parasite_%282019_film%29.png"
+      },
+      {
+        "id": 23,
+        "title": "The Grand Budapest Hotel",
+        "year": 2014,
+        "director": "Wes Anderson",
+        "genre": "Comedy",
+        "rating": 8.1,
+        "your_rating": null,
+        "your_review": "",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/1/1c/The_Grand_Budapest_Hotel.png"
+      },
+      {
+        "id": 24,
+        "title": "Sholay",
+        "year": 1975,
+        "director": "Ramesh Sippy",
+        "genre": "Action",
+        "rating": 8.6,
+        "your_rating": null,
+        "your_review": "",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/5/52/Sholay-poster.jpg"
+      }
+]
