@@ -1,48 +1,77 @@
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+
 const MovieList = ({ movies }) => {
+  const [searchTerm, setSearchTerm] = useState("");
+
+  // Filter movies based on the search term
+  const filteredMovies = movies.filter((movie) =>
+    movie.title.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   return (
-    <div style={styles.movieList}>
-      {movies.map((movie) => (
-        <div key={movie.id} style={styles.card}>
-          <img src={movie.image_url} alt={movie.title} style={styles.image} />
-          <div style={styles.info}>
-            <h2>{movie.title} ({movie.year})</h2>
-            <p><strong>Director:</strong> {movie.director}</p>
-            <p><strong>Genre:</strong> {movie.genre}</p>
-            <p><strong>IMDb Rating:</strong> {movie.rating}</p>
-            <p><strong>Your Rating:</strong> {movie.your_rating || "Not rated yet"}</p>
-            <p><strong>Your Review:</strong> {movie.your_review || "No review yet"}</p>
+    <div>
+      <h1>Movie List</h1>
+      <input
+        type="text"
+        placeholder="Search for a movie..."
+        value={searchTerm}
+        onChange={(e) => setSearchTerm(e.target.value)}
+        style={styles.searchBar}
+      />
+
+      <div style={styles.movieGrid}>
+        {filteredMovies.map((movie) => (
+          <div key={movie.id} style={styles.card}>
+            <img src={movie.image_url} alt={movie.title} style={styles.image} />
+            <h3>{movie.title}</h3>
+            <p>Year: {movie.year}</p>
+            <p>Director: {movie.director}</p>
+            <p>Genre: {movie.genre}</p>
+            <p>Rating: {movie.rating}</p>
+            <Link to={`/movie/${movie.id}`}>
+              <button style={styles.button}>Review</button>
+            </Link>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };
 
-// Sample inline styles for the components
 const styles = {
-  movieList: {
-    display: "flex",
-    flexWrap: "wrap",
-    gap: "20px",
-    justifyContent: "center",
+  searchBar: {
+    width: "100%",
+    padding: "10px",
+    marginBottom: "20px",
+    fontSize: "16px",
+  },
+  movieGrid: {
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
+    gap: "0.8rem",
   },
   card: {
-    width: "250px",
     border: "1px solid #ccc",
+    padding: "20px",
     borderRadius: "8px",
-    overflow: "hidden",
-    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
-    backgroundColor: "#fff",
     textAlign: "center",
   },
   image: {
     width: "100%",
-    height: "350px",
-    objectFit: "cover",
+    height: "auto",
+    marginBottom: "10px",
   },
-  info: {
-    padding: "15px",
-  }
+  button: {
+    marginBottom: "1rem",
+    padding: "10px 20px",
+    fontSize: "0.8rem",
+    cursor: "pointer",
+    backgroundColor: "#007BFF",
+    color: "#fff",
+    border: "none",
+    borderRadius: "5px",
+  },
 };
 
 export default MovieList;
