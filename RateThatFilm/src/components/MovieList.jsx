@@ -4,14 +4,12 @@ import { Link } from "react-router-dom";
 const MovieList = ({ movies }) => {
   const [searchTerm, setSearchTerm] = useState("");
 
-  // Filter movies based on the search term
   const filteredMovies = movies.filter((movie) =>
     movie.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   return (
     <div>
-      <h1>Movie List</h1>
       <input
         type="text"
         placeholder="Search for a movie..."
@@ -45,17 +43,18 @@ const styles = {
     padding: "10px",
     marginBottom: "20px",
     fontSize: "16px",
+    alignContent: "center",
   },
   movieGrid: {
     display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
+    gridTemplateColumns: "repeat(auto-fit, 260px)",
     gap: "0.8rem",
   },
   card: {
     border: "1px solid #ccc",
     padding: "20px",
     borderRadius: "8px",
-    textAlign: "center",
+    textAlign: "left",
   },
   image: {
     width: "100%",

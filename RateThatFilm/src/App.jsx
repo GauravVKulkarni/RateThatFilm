@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import MovieList from "./components/MovieList";
 import MovieDetails from "./components/MovieDetails";
 import moviesData from "./assets/data/movies.json";
+import "./styles/Footer.css";
 
 const App = () => {
   return (

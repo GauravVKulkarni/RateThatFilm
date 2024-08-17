@@ -41,7 +41,7 @@ const MovieDetails = ({ movies }) => {
               min="0"
               max="10"
               style={styles.input}
-            />
+            />  /10
           </label>
           <label>
             <strong>Your Review:</strong>
@@ -59,44 +59,62 @@ const MovieDetails = ({ movies }) => {
 };
 
 const styles = {
-  container: {
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    padding: "20px",
-  },
-  image: {
-    width: "400px",
-    height: "600px",
-    objectFit: "cover",
-    marginRight: "20px",
-  },
-  info: {
-    maxWidth: "500px",
-  },
-  form: {
-    marginTop: "20px",
-    display: "flex",
-    flexDirection: "column",
-    gap: "10px",
-  },
-  input: {
-    width: "50px",
-    padding: "5px",
-  },
-  textarea: {
-    width: "100%",
-    height: "100px",
-    padding: "10px",
-  },
-  button: {
-    padding: "10px",
-    backgroundColor: "#28a745",
-    color: "#fff",
-    border: "none",
-    borderRadius: "4px",
-    cursor: "pointer",
-  }
-};
-
-export default MovieDetails;
+    container: {
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      padding: "20px",
+      flexDirection: "row", // Default horizontal layout
+      flexWrap: "wrap", // Allows wrapping to vertical layout
+    },
+    image: {
+      width: "400px",
+      height: "600px",
+      objectFit: "cover",
+      marginRight: "4rem",
+    },
+    info: {
+      maxWidth: "500px",
+      flex: "1",
+    },
+    form: {
+      marginTop: "20px",
+      display: "flex",
+      flexDirection: "column",
+      gap: "10px",
+    },
+    input: {
+      width: "50px",
+      padding: "5px",
+    },
+    textarea: {
+      width: "100%",
+      height: "100px",
+      padding: "10px",
+    },
+    button: {
+      padding: "10px",
+      backgroundColor: "#28a745",
+      color: "#fff",
+      border: "none",
+      borderRadius: "4px",
+      cursor: "pointer",
+    },
+    '@media (max-width: 1000px)': {
+      container: {
+        flexDirection: "column",
+        alignItems: "flex-start",
+      },
+      image: {
+        width: "100%",
+        height: "auto",
+        marginRight: "0",
+        marginBottom: "1rem",
+      },
+      info: {
+        maxWidth: "100%",
+      },
+    },
+  };
+  
+  export default MovieDetails;
