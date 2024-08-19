@@ -17,10 +17,18 @@
 
 ```bash
 git clone https://github.com/GauravVKulkarni/RateThatFilm.git
-
+```
+```
 cd RateThatFilm
+```
+```
+cd RateThatFilm
+```
+yes, twice. will fix this
 
+```
 npm install
-
+```
+```
 npm run dev
 ```
