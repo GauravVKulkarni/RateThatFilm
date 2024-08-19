@@ -3,15 +3,15 @@
  
 ### Features -
  -Conveniently Search from Movies
- -Add your own reviews
+ -Add & edit your own reviews
 
 ### Tech Stack -
--ReactsJS
+-ReactsJS : Used routes for navigation
 
 ### Future Updates -
 -Database connection
 -User authentication
--OMDb API for fetching movie details
+-OMDb API integration for fetching movie details
 
 ### How to run on your own system -
 
